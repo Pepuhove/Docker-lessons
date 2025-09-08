@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1757331481,,"wq"
+|2,0,1757333907,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -23,32 +23,239 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	FROM openjdk:8 AS BUILD_IMAGE
+|3,1,1,1,1,0,1757333567,"FROM openjdk:8 AS BUILD_IMAGE"
+"2	LINE	0
+	RUN apt update && apt install maven -y
+|3,0,2,1,1,0,1757333567,"RUN apt update && apt install maven -y"
+"3	LINE	0
+	RUN mvn install
+|3,0,3,1,1,0,1757333567,"RUN mvn install"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1757333567,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1757333567,""
+"6	LINE	0
+	FROM tomcat:8-jre1
+|3,0,6,1,1,0,1757333567,"FROM tomcat:8-jre1"
+"7	LINE	0
+	RUN rm -rf /usr/local/tomcat/webapps/*
+|3,0,7,1,1,0,1757333567,"RUN rm -rf /usr/local/tomcat/webapps/*"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1757333567,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1757333567,""
 
 # File marks:
-'0  7  5  ~/composetest/compose.yaml
-|4,48,7,5,1757331481,"~/composetest/compose.yaml"
-'1  11  24  ~/composetest/compose.yaml
-|4,49,11,24,1757330941,"~/composetest/compose.yaml"
-'2  7  24  ~/composetest/compose.yaml
-|4,50,7,24,1757330941,"~/composetest/compose.yaml"
-'3  11  30  ~/composetest/Dockerfile
-|4,51,11,30,1757330627,"~/composetest/Dockerfile"
-'4  2  4  ~/composetest/requirements.txt
-|4,52,2,4,1757330587,"~/composetest/requirements.txt"
-'5  23  59  ~/composetest/app.py
-|4,53,23,59,1757330532,"~/composetest/app.py"
+'0  8  14  ~/project/Dockerfile
+|4,48,8,14,1757333907,"~/project/Dockerfile"
+'1  29  0  ~/project/Dockerfile
+|4,49,29,0,1757333577,"~/project/Dockerfile"
+'2  34  0  ~/project/Dockerfile
+|4,50,34,0,1757333577,"~/project/Dockerfile"
+'3  1  0  ~/project/Dockerfile
+|4,51,1,0,1757333445,"~/project/Dockerfile"
+'4  1  0  ~/project/Dockerfile
+|4,52,1,0,1757333445,"~/project/Dockerfile"
+'5  8  0  ~/project/Dockerfile
+|4,53,8,0,1757333445,"~/project/Dockerfile"
+'6  1  0  ~/project/Dockerfile
+|4,54,1,0,1757332967,"~/project/Dockerfile"
+'7  1  0  ~/project/Dockerfile
+|4,55,1,0,1757332967,"~/project/Dockerfile"
+'8  9  46  ~/project/Dockerfile
+|4,56,9,46,1757332967,"~/project/Dockerfile"
+'9  9  46  ~/project/Dockerfile
+|4,57,9,46,1757332967,"~/project/Dockerfile"
 
 # Jumplist (newest first):
+-'  8  14  ~/project/Dockerfile
+|4,39,8,14,1757333907,"~/project/Dockerfile"
+-'  29  0  ~/project/Dockerfile
+|4,39,29,0,1757333852,"~/project/Dockerfile"
+-'  34  0  ~/project/Dockerfile
+|4,39,34,0,1757333577,"~/project/Dockerfile"
+-'  1  0  ~/project/Dockerfile
+|4,39,1,0,1757333477,"~/project/Dockerfile"
+-'  1  0  ~/project/Dockerfile
+|4,39,1,0,1757333477,"~/project/Dockerfile"
+-'  8  0  ~/project/Dockerfile
+|4,39,8,0,1757333445,"~/project/Dockerfile"
+-'  9  46  ~/project/Dockerfile
+|4,39,9,46,1757333410,"~/project/Dockerfile"
+-'  11  0  ~/project/Dockerfile
+|4,39,11,0,1757333410,"~/project/Dockerfile"
+-'  11  0  ~/project/Dockerfile
+|4,39,11,0,1757332967,"~/project/Dockerfile"
+-'  12  0  ~/project/Dockerfile
+|4,39,12,0,1757332644,"~/project/Dockerfile"
+-'  12  0  ~/project/Dockerfile
+|4,39,12,0,1757332644,"~/project/Dockerfile"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
+-'  7  5  ~/composetest/compose.yaml
+|4,39,7,5,1757331481,"~/composetest/compose.yaml"
 -'  7  5  ~/composetest/compose.yaml
 |4,39,7,5,1757331481,"~/composetest/compose.yaml"
 -'  11  24  ~/composetest/compose.yaml
 |4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  11  24  ~/composetest/compose.yaml
+|4,39,11,24,1757331210,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1757330941,"~/composetest/compose.yaml"
 -'  7  24  ~/composetest/compose.yaml
 |4,39,7,24,1757330941,"~/composetest/compose.yaml"
 -'  1  0  ~/composetest/compose.yaml
 |4,39,1,0,1757330773,"~/composetest/compose.yaml"
 -'  1  0  ~/composetest/compose.yaml
 |4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1757330773,"~/composetest/compose.yaml"
 -'  11  30  ~/composetest/Dockerfile
 |4,39,11,30,1757330627,"~/composetest/Dockerfile"
 -'  11  30  ~/composetest/Dockerfile
@@ -57,112 +264,28 @@
 |4,39,11,30,1757330627,"~/composetest/Dockerfile"
 -'  11  30  ~/composetest/Dockerfile
 |4,39,11,30,1757330627,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1757330621,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1757330621,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1757330621,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1757330621,"~/composetest/Dockerfile"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1757330587,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1757330570,"~/composetest/requirements.txt"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  23  59  ~/composetest/app.py
-|4,39,23,59,1757330532,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
--'  1  0  ~/composetest/app.py
-|4,39,1,0,1757330527,"~/composetest/app.py"
+-'  11  30  ~/composetest/Dockerfile
+|4,39,11,30,1757330627,"~/composetest/Dockerfile"
+-'  11  30  ~/composetest/Dockerfile
+|4,39,11,30,1757330627,"~/composetest/Dockerfile"
+-'  11  30  ~/composetest/Dockerfile
+|4,39,11,30,1757330627,"~/composetest/Dockerfile"
+-'  11  30  ~/composetest/Dockerfile
+|4,39,11,30,1757330627,"~/composetest/Dockerfile"
+-'  11  30  ~/composetest/Dockerfile
+|4,39,11,30,1757330627,"~/composetest/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/project/Dockerfile
+	*	1757333906	0
+	"	8	14
+	^	8	15
+	.	9	7
+	+	1	26
+	+	1	27
+	+	28	26
+	+	9	7
 
 > ~/composetest/compose.yaml
 	*	1757331480	0
